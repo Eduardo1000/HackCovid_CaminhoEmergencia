@@ -25,3 +25,4 @@ A proposta seria desenvolver um app, que iria utilizar a geolocalização do usu
 - e de preferência tenha vagas disponíveis !
 
 
+![Descição do App](HackCovid.jpeg)
