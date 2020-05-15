@@ -11,10 +11,20 @@ class DBBuilder:
         Carrega as tabelas necessárias e Retorna um Dataset
         """
         join_key = 'CO_UNIDADE'
+
         # CARREGA AS INFORMAÇÕES DO NÚMERO DE LEITOS
         columns = ['CO_LEITO', 'CO_TIPO_LEITO', 'QT_EXIST', 'QT_SUS']
         leitos = pd.read_csv(os.path.join(self.data_folder, 'rlEstabComplementar202003.csv'), sep=';')
         leitos = leitos.set_index(join_key)[columns]
+        # FILTRA OS TIPOS DE LEITO
+        columns = ["CO_LEITO", "DS_LEITO"]
+        tipos_leito_escolhidos = ["51", "52", "74", "75", "76", "46", "34", "49"]
+        tipo_leito_key = 'CO_LEITO'
+        tipo_leitos = pd.read_csv(os.path.join(self.data_folder, 'tbLeito202003.csv'), sep=';')
+        tipo_leitos = tipo_leitos[columns].set_index(tipo_leito_key)
+        leitos = leitos[leitos[tipo_leito_key].isin(tipos_leito_escolhidos)]
+        leitos = leitos.join(tipo_leitos, on=tipo_leito_key, lsuffix='_').drop(
+            columns=[tipo_leito_key])
 
         # CARREGA AS INFORMAÇÕES DO ESTABELECIMENTO
         columns = ['CO_CNES', 'NO_FANTASIA', 'NO_LOGRADOURO', 'NU_ENDERECO', 'NO_COMPLEMENTO', 'NO_BAIRRO', 'CO_CEP',
