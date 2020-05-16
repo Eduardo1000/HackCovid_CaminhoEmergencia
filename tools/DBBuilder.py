@@ -67,3 +67,4 @@ class DBBuilder:
         dataframe = estabelecimentos.join(leitos, how='inner')
         print('dados concatenados')
         dataframe.to_csv(os.path.join(self.save_path, 'datasus.csv'))
+        print('FIM')
