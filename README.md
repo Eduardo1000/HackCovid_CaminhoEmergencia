@@ -29,3 +29,11 @@ A proposta seria desenvolver um app, que iria utilizar a geolocalização do usu
 A proposta é que o App, com base nas taxas de ocupações, te indique qual a melhor opção de deslocamento para atendimento. Isso Está exemplificado na imagem abaixo, que mostra em cima de cada hospital a taxa de ocupação e com a seta, aponta qual a melhor opção.
 
 ![Descição do App](HackCovid.jpeg)
+
+# Links Interessantes
+Painel da Covid no Rio - https://www.data.rio/app/painel-rio-covid-19
+
+Regiões de Influência das Cidades - REGIC - https://www.ibge.gov.br/geociencias/organizacao-do-territorio/redes-e-fluxos-geograficos/15798-regioes-de-influencia-das-cidades.html?edicao=27334&t=downloads
+
+Covid em tempo real no RS - https://covid.saude.rs.gov.br/
+
