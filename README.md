@@ -9,10 +9,12 @@ Dentre as atribuições do desafio está desenvolver um protótipo e um Pitch at
 
 # Para baixar os dados do Projeto
 
-1) Baixar o Dataset do repositório a seguir: 
-  https://drive.google.com/file/d/1kZ04ArPCvKn8-hR9w8r8pOF_29OeN3Kj/view?usp=sharing
+1) Baixar o Dataset de Capacidades no repositório a seguir: 
+    https://drive.google.com/file/d/1kZ04ArPCvKn8-hR9w8r8pOF_29OeN3Kj/view?usp=sharing
 2) Colocar a pasta 'BASE_DE_DADOS_CNES_202003' na raíz do projeto
-3) Digitar python3 install.py
+3) Baixar o Dataset de Demandas no repositório a seguir:
+    https://drive.google.com/open?id=1uJAOXa_VDTOqVh0_lXCxypm1ArF5hH0O
+3) Usar o comando python3 install.py
 
 # O desafio
 O desafio proposto, Caminho para a Emergência, tem a seguinte pergunta chave: 
