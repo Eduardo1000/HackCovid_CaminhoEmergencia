@@ -14,6 +14,7 @@ Dentre as atribuições do desafio está desenvolver um protótipo e um Pitch at
 2) Colocar a pasta 'BASE_DE_DADOS_CNES_202003' na raíz do projeto
 3) Baixar o Dataset de Demandas no repositório a seguir:
     https://drive.google.com/open?id=1uJAOXa_VDTOqVh0_lXCxypm1ArF5hH0O
+    Caso tenha problemas usar codificação "unicode_escape"
 3) Usar o comando python3 install.py
 
 # O desafio
