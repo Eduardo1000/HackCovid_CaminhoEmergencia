@@ -1,5 +1,5 @@
 /BASE_DE_DADOS_CNES_202003
 /.idea
 .~lock.*
-*/__pycache__/*
+__pycache__/
 *.ipynb_checkpoints
