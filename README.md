@@ -40,7 +40,7 @@ A proposta é que o App, com base nas taxas de ocupações, te indique qual a me
 
 # Mapa Mental da Estrutura da Solução
 
-![Mapa Mental](MapaMental.jpeg)
+![Mapa Mental](MapaMental.png)
 
 # Links Interessantes
 Painel da Covid no Rio - https://www.data.rio/app/painel-rio-covid-19
